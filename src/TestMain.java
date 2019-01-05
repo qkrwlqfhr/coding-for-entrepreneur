@@ -5,11 +5,17 @@ public class TestMain {
         operators.calculate();*/
 
         //primitive data types
-        PrimitiveDataTypes primitiveDataTypes = new PrimitiveDataTypes();
+        //PrimitiveDataTypes primitiveDataTypes = new PrimitiveDataTypes();
         //primitiveDataTypes.explainInteger();
         //primitiveDataTypes.explainDouble();
         //primitiveDataTypes.castNumber();
-        primitiveDataTypes.explainString();
-        primitiveDataTypes.parseData();
+        //primitiveDataTypes.explainString();
+        //primitiveDataTypes.parseData();
+
+        CollectionFrameworks collectionFrameworks = new CollectionFrameworks();
+        //collectionFrameworks.explainArray();
+        //collectionFrameworks.explainArrayList();
+        //collectionFrameworks.explainHashSet();
+        collectionFrameworks.explainHashMap();
     }
 }
