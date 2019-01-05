@@ -3,5 +3,13 @@ public class TestMain {
 /*        System.out.println("hello");*/
 /*        Operators operators = new Operators();
         operators.calculate();*/
+
+        //primitive data types
+        PrimitiveDataTypes primitiveDataTypes = new PrimitiveDataTypes();
+        //primitiveDataTypes.explainInteger();
+        //primitiveDataTypes.explainDouble();
+        //primitiveDataTypes.castNumber();
+        primitiveDataTypes.explainString();
+        primitiveDataTypes.parseData();
     }
 }
