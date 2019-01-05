@@ -54,5 +54,12 @@ public class TestMain {
        // System.out.println(subClass.multifly());
         //System.out.println(subClass.substract());
         //System.out.println(subClass.divide());
+
+        AccessModifiers accessModifiers = new AccessModifiers(5,7);
+        //accessModifiers.a = 5;
+        //accessModifiers.b = 7;
+        System.out.println(accessModifiers.sum());
+        System.out.println(accessModifiers.getA());
+        //accessModifiers.setA(10);
     }
 }
