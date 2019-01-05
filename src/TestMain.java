@@ -12,10 +12,14 @@ public class TestMain {
         //primitiveDataTypes.explainString();
         //primitiveDataTypes.parseData();
 
-        CollectionFrameworks collectionFrameworks = new CollectionFrameworks();
+        //CollectionFrameworks collectionFrameworks = new CollectionFrameworks();
         //collectionFrameworks.explainArray();
         //collectionFrameworks.explainArrayList();
         //collectionFrameworks.explainHashSet();
-        collectionFrameworks.explainHashMap();
+        //collectionFrameworks.explainHashMap();
+
+        IfStatement ifStatement = new IfStatement();
+        //ifStatement.explainBoolean();
+        ifStatement.explainIfStatement();
     }
 }
