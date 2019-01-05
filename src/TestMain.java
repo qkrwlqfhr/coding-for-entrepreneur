@@ -18,8 +18,13 @@ public class TestMain {
         //collectionFrameworks.explainHashSet();
         //collectionFrameworks.explainHashMap();
 
-        IfStatement ifStatement = new IfStatement();
+        //IfStatement ifStatement = new IfStatement();
         //ifStatement.explainBoolean();
-        ifStatement.explainIfStatement();
+        //ifStatement.explainIfStatement();
+
+        ForLoop forLoop = new ForLoop();
+        //forLoop.explainForLoop();
+        //forLoop.explainForLoopWithArrayList();
+        forLoop.explainWhile();
     }
 }
