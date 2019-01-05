@@ -22,9 +22,24 @@ public class TestMain {
         //ifStatement.explainBoolean();
         //ifStatement.explainIfStatement();
 
-        ForLoop forLoop = new ForLoop();
+        //ForLoop forLoop = new ForLoop();
         //forLoop.explainForLoop();
         //forLoop.explainForLoopWithArrayList();
-        forLoop.explainWhile();
+        //forLoop.explainWhile();
+
+        //Methods methods = new Methods();
+        //methods.testMethodOne();
+        //methods.testMethodTwo("two");
+        //methods.testMethodThree();
+        //System.out.println(methods.testMethodThree());
+        //methods.testMethodFour(3, 4);
+        //System.out.println(methods.testMethodFour(3, 4));
+
+        FavoriteFood favoriteFood = new FavoriteFood();
+        favoriteFood.methodOne();
+        favoriteFood.methodTwo("피자");
+        System.out.println(favoriteFood.methodThree());
+        System.out.println(favoriteFood.methodFour("햄버거"));
+
     }
 }
