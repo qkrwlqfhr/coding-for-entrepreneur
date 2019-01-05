@@ -35,11 +35,24 @@ public class TestMain {
         //methods.testMethodFour(3, 4);
         //System.out.println(methods.testMethodFour(3, 4));
 
-        FavoriteFood favoriteFood = new FavoriteFood();
-        favoriteFood.methodOne();
-        favoriteFood.methodTwo("피자");
-        System.out.println(favoriteFood.methodThree());
-        System.out.println(favoriteFood.methodFour("햄버거"));
+        //FavoriteFood favoriteFood = new FavoriteFood();
+        //favoriteFood.methodOne();
+        //favoriteFood.methodTwo("피자");
+        //System.out.println(favoriteFood.methodThree());
+        //System.out.println(favoriteFood.methodFour("햄버거"));
 
+        //Classes classes = new Classes(1,2);
+        //System.out.println(classes.sum());
+        //System.out.println(classes.multifly());
+
+        //Classes classes2 = new Classes(2,3);
+        //System.out.println(classes2.sum());
+        //System.out.println(classes2.multifly());
+
+        //SubClass subClass = new SubClass(4,2);
+        //System.out.println(subClass.sum());
+       // System.out.println(subClass.multifly());
+        //System.out.println(subClass.substract());
+        //System.out.println(subClass.divide());
     }
 }
